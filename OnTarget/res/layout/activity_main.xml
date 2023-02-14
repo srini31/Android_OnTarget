@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory" >
+
+    <com.example.ontarget.OnTargetView android:id="@+id/OnTargetView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+	
+    <Button android:id="@+id/startButton" android:text="@string/start"
+		style="@style/ButtonText" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|bottom" />
+
+	<Button android:id="@+id/retryButton" android:text="@string/retry"
+		style="@style/ButtonText" android:visibility="invisible"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|bottom" />
+	
+	<TextView android:id="@+id/helpTextView" android:text="@string/helpText"
+		style="@style/helpText" android:visibility="invisible" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="#7Fffffff" android:layout_gravity="center" />
+    
+    <RadioGroup 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom">
+    <RadioButton android:id="@+id/radio_Begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/chkBeginner"
+        android:checked="true"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Adv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/chkAdvanced"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>
+    
+	<TextView android:id="@+id/timerTextView" android:text="@string/timer"
+		style="@style/timerText" android:visibility="invisible"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|right" android:background="#000000" />
+	
+	
+</FrameLayout>
