@@ -1,2 +1,2 @@
-# OnTarget_FlyingBird_Android
-An Android App for 2 games, an Arrow guided on to a Target and a Flying Bird
+## Android_OnTarget
+An Android App for a game to guide an Arrow on to a Target
