@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnTarget</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="start">START!</string>
+	<string name="retry">RETRY</string>
+	<string name="restart">RETURN</string>
+	<string name="helpText">Guide the Arrow to the \nmoving Target by tilting\n the screen to score points.</string>
+	<string name="winText">You win, You are the master of Archery!\nOnTarget Programmed by Srinivas Sambaraju®\n</string>
+	<string name="loseText">Sorry, you lose.</string>
+	<string name="timer">1:12</string>
+
+	 <string name="chkBeginner">Beginner</string>
+	 <string name="chkAdvanced">Advanced</string>
+	 <string name="service_name">Test Service</string>
+
+</resources>
